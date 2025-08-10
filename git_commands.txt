@@ -1,0 +1,5 @@
+#To initialize a git repo in a folder
+git init
+
+#To track the status of the changes made
+git status
