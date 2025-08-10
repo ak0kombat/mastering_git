@@ -7,3 +7,6 @@ git status
 #to connect to the GitHub
 git config --global user.email "emailID"
 git config --global user.name "username"
+
+#to commit the changes
+git commit -m "Message or description for the change"
