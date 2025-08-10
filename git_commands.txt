@@ -22,3 +22,6 @@ git reset "hash value of commit"
 
 #Stashing a change in the backstage
 git stash after git add
+
+#to add the stashed changes into file
+git stash pop
