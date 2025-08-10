@@ -31,3 +31,6 @@ git stash clear
 
 #to connect with our repository remotely
 git remote add origin "repo url"
+
+#to remove the remote origin 
+git remote remove origin
