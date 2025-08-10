@@ -28,3 +28,6 @@ git stash pop
 
 #To clear the changes in the stash
 git stash clear
+
+#to connect with our repository remotely
+git remote add origin "repo url"
