@@ -19,3 +19,6 @@ git log
 
 #to reset the file using the hash of commits
 git reset "hash value of commit"
+
+#Stashing a change in the backstage
+git stash after git add
