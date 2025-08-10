@@ -16,3 +16,6 @@ git restore --staged "filename"
 
 #to view the history of the repository
 git log
+
+#to reset the file using the hash of commits
+git reset "hash value of commit"
