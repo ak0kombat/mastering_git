@@ -25,3 +25,6 @@ git stash after git add
 
 #to add the stashed changes into file
 git stash pop
+
+#To clear the changes in the stash
+git stash clear
