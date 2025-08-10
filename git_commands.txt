@@ -3,3 +3,7 @@ git init
 
 #To track the status of the changes made
 git status
+
+#to connect to the GitHub
+git config --global user.email "emailID"
+git config --global user.name "username"
