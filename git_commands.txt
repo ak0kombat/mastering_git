@@ -10,3 +10,6 @@ git config --global user.name "username"
 
 #to commit the changes
 git commit -m "Message or description for the change"
+
+#to restore the file from the stage
+git restore --staged "filename"
