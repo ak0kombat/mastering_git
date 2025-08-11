@@ -50,3 +50,10 @@ git checkout "branch name"
 #to merge a branch to the main branch
 git merge "branch that you want to merge"
 
+#forking a repo
+why do we need to fork?
+cuz, we dont have the permission to alter a github repo unless the owner of the repo allows us to. But still we need to use the repo so thats why we are forking the repo to our own account.
+
+#how to clone a repo using Terminal
+git clone "url of the repo"
+
