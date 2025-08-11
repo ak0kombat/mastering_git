@@ -41,4 +41,12 @@ git branch -M main
 # to store the password
 git config --global credential.helper store
 
-summa thaan eluthuren branch checking
+#to create a new branch
+git branch "branch name"
+
+#to access a branch
+git checkout "branch name"
+
+#to merge a branch to the main branch
+git merge "branch that you want to merge"
+
