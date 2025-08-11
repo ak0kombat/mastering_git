@@ -40,3 +40,6 @@ git branch -M main
 
 #to pull from the main branch
 git pull upstream main
+
+#to push branch if its several commits behind the main branch
+git push origin main -f
