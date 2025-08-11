@@ -37,3 +37,6 @@ git remote remove origin
 
 #to rename the branch name from master to main
 git branch -M main
+
+#to pull from the main branch
+git pull upstream main
