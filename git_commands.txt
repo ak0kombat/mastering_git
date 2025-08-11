@@ -1,0 +1,39 @@
+#To initialize a git repo in a folder
+git init
+
+#To track the status of the changes made
+git status
+
+#to connect to the GitHub
+git config --global user.email "emailID"
+git config --global user.name "username"
+
+#to commit the changes
+git commit -m "Message or description for the change"
+
+#to restore the file from the stage
+git restore --staged "filename"
+
+#to view the history of the repository
+git log
+
+#to reset the file using the hash of commits
+git reset "hash value of commit"
+
+#Stashing a change in the backstage
+git stash after git add
+
+#to add the stashed changes into file
+git stash pop
+
+#To clear the changes in the stash
+git stash clear
+
+#to connect with our repository remotely
+git remote add origin "repo url"
+
+#to remove the remote origin 
+git remote remove origin
+
+#to rename the branch name from master to main
+git branch -M main
