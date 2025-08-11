@@ -40,3 +40,5 @@ git branch -M main
 
 # to store the password
 git config --global credential.helper store
+
+summa thaan eluthuren branch checking
