@@ -34,3 +34,6 @@ git remote add origin "repo url"
 
 #to remove the remote origin 
 git remote remove origin
+
+#to rename the branch name from master to main
+git branch -M main
