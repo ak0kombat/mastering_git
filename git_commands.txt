@@ -57,3 +57,6 @@ cuz, we dont have the permission to alter a github repo unless the owner of the 
 #how to clone a repo using Terminal
 git clone "url of the repo"
 
+#upstreaming (From where I have cloned the repo[the actual repo])
+git remote add upstream "url"
+
