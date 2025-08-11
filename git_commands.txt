@@ -40,3 +40,11 @@ git branch -M main
 
 # to store the password
 git config --global credential.helper store
+
+#to create a new branch
+git branch "branch name"
+
+#to access a branch
+git checkout "branch name"
+
+
