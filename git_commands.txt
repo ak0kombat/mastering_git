@@ -60,3 +60,5 @@ git clone "url of the repo"
 #upstreaming (From where I have cloned the repo[the actual repo])
 git remote add upstream "url"
 
+pull request: It is a request that we raise to merge our branch inour account to the actual repo that we forked
+
