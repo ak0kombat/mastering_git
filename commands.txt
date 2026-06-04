@@ -1,0 +1,18 @@
+Initializing a git repository
+git init //Initializing a local repository
+git clone URL //Copying a repository from git hub using the repo url
+
+To Stage file
+git add . //stage everything in a folder but incase of a subfolder adds only the contents inside the subfolder leaving the files in the main directory
+git add --all //stages everything even while working inside a subfolder
+git add -A // same as --all
+git add filename //a to stage a specific file
+
+To commit the changes
+git commit -m "Message to describe the version"
+
+To check the status of the repo
+git status
+
+To check the changes done on the repo
+git log
