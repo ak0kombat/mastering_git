@@ -32,3 +32,6 @@ git reset HEAD~
 
 To remove a file and stage the deletion
 git rm filename
+
+To rollback a change including deleted file
+git reset --hard
