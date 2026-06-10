@@ -7,6 +7,16 @@ git add . //stage everything in a folder but incase of a subfolder adds only the
 git add --all //stages everything even while working inside a subfolder
 git add -A // same as --all
 git add filename //a to stage a specific file
+git add * //stages everything except deleted files
+git add *.txt //Stages everything thats a txt file(staging file specific)
+
+To unstage a file
+git reset
+
+Identity Confirmation
+git config --global user.email "ak0kombat@gmail.com"
+git config --global user.name "Akash"
+git config --global --replace user.name "Akash"(To replace the name if configured already)
 
 To commit the changes
 git commit -m "Message to describe the version"
@@ -16,3 +26,4 @@ git status
 
 To check the changes done on the repo
 git log
+
