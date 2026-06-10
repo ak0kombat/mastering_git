@@ -27,3 +27,5 @@ git status
 To check the changes done on the repo
 git log
 
+Rollback after a commit
+git reset HEAD~
