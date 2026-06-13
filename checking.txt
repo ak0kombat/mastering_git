@@ -1,0 +1,2 @@
+This things works but only when I push the changes
+now Im gonna checkout on fetch command and merging
