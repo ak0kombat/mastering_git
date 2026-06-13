@@ -36,3 +36,17 @@ git rm filename
 git rm -r <Folder> //to remove a Folder
 To rollback a change including deleted file
 git reset --hard
+
+
+BRANCHING
+
+git branch //Shows the list of branches in the repo
+git branch <branchname> //To create a new branch
+git checkout <branchname> //To access a branch
+git checkout <commit ID> //To rollback to a previous commit
+
+git diff <commit ID 1> <commit ID 2> //Displays the difference btw the two commits
+
+CONNECTING TO THE REMOTE REPO
+git remote add origin <REPO URL>
+git push origin main <Branch name>
