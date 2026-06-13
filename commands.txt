@@ -50,3 +50,7 @@ git diff <commit ID 1> <commit ID 2> //Displays the difference btw the two commi
 CONNECTING TO THE REMOTE REPO
 git remote add origin <REPO URL>
 git push origin main <Branch name>
+
+Fetching and merging
+git fetch //fetches the changes made in the remote repository without editing it in the local repo
+git merge //merges the changes done in remote to local repo
