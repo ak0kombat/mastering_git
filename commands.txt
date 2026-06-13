@@ -54,3 +54,6 @@ git push origin main <Branch name>
 Fetching and merging
 git fetch //fetches the changes made in the remote repository without editing it in the local repo
 git merge //merges the changes done in remote to local repo
+
+Pulling
+git pull origin branch_name //performs merge and fetch all together
