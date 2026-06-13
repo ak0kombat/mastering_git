@@ -44,6 +44,7 @@ git branch //Shows the list of branches in the repo
 git branch <branchname> //To create a new branch
 git checkout <branchname> //To access a branch
 git checkout <commit ID> //To rollback to a previous commit
+git branch --delete <branch name>
 
 git diff <commit ID 1> <commit ID 2> //Displays the difference btw the two commits
 
@@ -51,9 +52,13 @@ CONNECTING TO THE REMOTE REPO
 git remote add origin <REPO URL>
 git push origin main <Branch name>
 
+git push origin --delete <branch name>
+git push origin 
+
 Fetching and merging
 git fetch //fetches the changes made in the remote repository without editing it in the local repo
 git merge //merges the changes done in remote to local repo
 
 Pulling
 git pull origin branch_name //performs merge and fetch all together
+
