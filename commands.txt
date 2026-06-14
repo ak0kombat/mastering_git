@@ -62,3 +62,9 @@ git merge //merges the changes done in remote to local repo
 Pulling
 git pull origin branch_name //performs merge and fetch all together
 
+RESTORE
+git restore <file name> //restores the file to the last commit state
+git restore . //restores all the file
+git restore --staged <file name> //removes the file from the stagging area but keeps it in the working directory
+git restore --staged . //removes all the files from the staging area
+
