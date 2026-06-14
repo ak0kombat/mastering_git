@@ -76,3 +76,4 @@ git stash apply //brings the progress but doesn't clear the hash values
 
 REVERT
 git revert <desired commit ID> //Safely reverting the change
+
