@@ -68,3 +68,7 @@ git restore . //restores all the file
 git restore --staged <file name> //removes the file from the stagging area but keeps it in the working directory
 git restore --staged . //removes all the files from the staging area
 
+STASHING
+git stash //moves the working progress to backrooms when we need to switch another branch
+git stash pop //brings the progress from backrooms to pwd
+git stash clear // removes the progress from the backrooms
