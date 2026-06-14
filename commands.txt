@@ -74,4 +74,5 @@ git stash pop //brings the progress from backrooms to pwd
 git stash clear // removes the progress from the backrooms
 git stash apply //brings the progress but doesn't clear the hash values
 
-checking revert command
+REVERT
+git revert <desired commit ID> //Safely reverting the change
