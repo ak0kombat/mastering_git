@@ -73,3 +73,5 @@ git stash //moves the working progress to backrooms when we need to switch anoth
 git stash pop //brings the progress from backrooms to pwd
 git stash clear // removes the progress from the backrooms
 git stash apply //brings the progress but doesn't clear the hash values
+
+checking revert command
